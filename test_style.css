@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+/* Меню на сайте */
+
+.menu {
+  border: 0.00001px black solid;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(160, 145, 242, 1) 63%,
+    rgba(119, 174, 185, 1) 100%
+  );
+}
+.container {
+  min-width: 1227px;
+  margin: 0 auto;
+}
+.menu_inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  margin-right: 25px;
+  font-family: sans-serif;
+  padding: 5px 10px;
+}
+
+.nav li a:hover {
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: orange;
+}
+/* -------------- 
+-----------------------------------------------
+*/
+/* Тело сайта */
+.info {
+  background-color: #a091f2;
+}
+.info_container {
+  min-width: 1227px;
+  margin: 0 auto;
+}
+.info_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 300px;
+}
+.item {
+  text-align: center;
+}
+.number {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 15px;
+  color: orange;
+}
+.text {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
